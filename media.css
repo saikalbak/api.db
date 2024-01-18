@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .img1{
+        width: 300px;
+    }
+    .info{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 160px;
+    }
+}
